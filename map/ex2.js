@@ -43,6 +43,7 @@ Expected OUTPUT for this sample
 */
 
 function getFoodCategories(foods) {
+  return foods.map(pepole => pepole.lenght === true)
 }
 
 
