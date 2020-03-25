@@ -43,7 +43,12 @@ Expected OUTPUT for this sample
 */
 
 function getFoodCategories(foods) {
-  return foods.map(pepole => pepole.lenght === true)
+  return foods.map(foods => {
+    if (foods.isVegetarian == true) {
+      return `${foods.food} is suitable for vegetarians`
+    } else { 
+      return `${foods.food} is not suitable for vegetarians`} 
+  })
 }
 
 
